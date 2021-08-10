@@ -1,0 +1,59 @@
+@media (max-width: 1080px) and (min-width: 992px) {
+  .navbar .navbar-right  h2{
+    margin-top: 2px;
+      font-size: 24px;
+      font-weight:400;
+    }
+  .navbar .navbar-right{
+    margin-right: -10px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .navbar .navbar-right h2{
+    margin-top: 2px;
+      font-size: 17px;
+      font-weight:500;
+    }
+.navbar .navbar-header {
+    width:240px;
+    border-right: 1px solid #c8c7cc;
+}
+
+  .navbar .navbar-collapse {
+    margin-left: 240px;
+}
+  .navbar .navbar-right {
+    position: relative;
+    float: right;
+  text-align: -webkit-match-parent;
+  margin-right: -10px;
+  }
+.navbar .navbar-right > li.current-user > a span:hover {
+color: blue;
+}
+}
+
+@media (max-width: 767px){
+.navbar .navbar-right > li.current-user a span {
+    position: absolute;
+    top: 5px;
+    font-size: 15px;
+    line-height: 0px;
+    right: 0;
+    left: 0;
+    bottom: auto;
+}
+.navbar .navbar-right > li.current-user a span:hover{
+    color: blue;
+}
+}
+
+
+
+/*only for Dashboard */
+@media (max-width: 1050px) and (min-width: 768px) {
+  .col-sm-4{
+    width: 36%;
+  }
+}

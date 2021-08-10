@@ -1,0 +1,9 @@
+<?php
+if(isset($_SESSION['patid'])){
+	header('location:../patient/dashboard.php');}
+	if(isset($_SESSION['aid'])){
+		header('location:../admin/dashboard.php');}
+	if(isset($_SESSION['docid'])){
+			header('location:../doctor/dashboard.php');}
+
+ ?>

@@ -1,0 +1,79 @@
+#popUpMain{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.6);
+  z-index: 1001;
+}
+
+#popup{
+  text-align:center;
+  width: 410px;
+  height: 220px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('https://img.freepik.com/free-vector/elegant-white-texture-background_23-2148431731.jpg?size=626&ext=jpg');
+  background-size: cover;
+  position: absolute;
+  top:28%;
+  left: 28%;
+  transform: translate(-50,-50);
+  box-shadow: 1px 2px 5px 3px gray
+}
+#tik{
+  font-size: 70px;
+  transform: translateY(8px);
+  color: green;
+}
+#newsHeading{
+ transform: translateY(10px);
+ color: green;
+}
+.submitId{
+  background-color: #0fc0fa;
+  border: none;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  color: white;
+}
+
+
+
+
+
+
+
+#popUpMai{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.6);
+  z-index: 1001;
+}
+
+#popu{
+  text-align:center;
+  width: 350px;
+  height: 170px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('https://img.freepik.com/free-vector/elegant-white-texture-background_23-2148431731.jpg?size=626&ext=jpg');
+  background-size: cover;
+  position: absolute;
+  top:28%;
+  left: 15%;
+  transform: translate(-50,-50);
+  box-shadow: 1px 2px 5px 3px gray
+}
+#ti{
+  font-size: 60px;
+  transform: translateY(4px);
+  color: green;
+}
+#newsHeadin{
+ transform: translateY(5px);
+ color: green;
+}
+.submitI{
+  background-color: #0fc0fa;
+  border: none;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  color: white;
+}

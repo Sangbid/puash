@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>List and Gird view using Javascript</title>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="s-heading">
+		<a class="ss-btn" href="../index.html">PUASH</a>
+		<p>Proper Use Of Antibiotics & Safe Health</p>
+		<h3>Nearest Hospital List In Dhaka</h3>
+	</div>
+	<br>
+	<div class="links">
+		<ul>
+			<li data-view="list-view" class="li-list active" id="list">
+			<i class="fas fa-th-list"></i>
+			List View</li>
+			<li data-view="grid-view" class="li-grid" id="grid">
+			<i class="fas fa-th-large"></i>
+			Grid View</li>
+		</ul>
+	</div>
+	<div class="view_main">
+		<div class="view_wrap list-view" style="display: block;" id="allview">
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">BIRDEM General Hospital</p>
+					<p class="content">
+                        <b>Address:</b> Shahbag Square, 122 Kazi Nazrul Islam Ave, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9661551</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">BIRDEM General Hospital 2 (Child and Mother)</p>
+					<p class="content">
+                        <b>Address:</b> 1/A Segun Bagicha Rd, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-41050710</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Dhaka Medical College</p>
+					<p class="content">
+                        <b>Address:</b> Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-55165088</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Bangabandhu Sheikh Mujib Medical University Hospital</p>
+					<p class="content">
+                        <b>Address:</b> Bangabandhu Sheikh Mujib Medical University, BSMMU, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 09611-677777</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Shaheed Suhrawardy Medical College and Hospital</p>
+					<p class="content">
+                        <b>Address:</b> College Gate, Dhaka 1207<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-8144048</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">জাপান বাংলাদেশ ফ্রেন্ডশিপ হাসপাতাল</p>
+					<p class="content">
+                        <b>Address:</b> Zigatola Bus Stand, 55 Satmasjid Road, Dhaka 1209<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9672277</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Green Life Medical College Hospital</p>
+					<p class="content">
+                        <b>Address:</b> MAK Khan Tower, 31 and 31/1, Bir Uttam KM Shafiullah Sarak, Green Rd, Dhaka 1205<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9612345</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Harun Eye Foundation Hospital</p>
+					<p class="content">
+                        <b>Address:</b> House no 12/A Road No. 5 ( on Mirpur Road, Dhaka 1205<br>
+                        <b>Hours:</b> 9 AM - 9 PM <br>
+                        <b>Phone:</b> 02-9613930</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Asgar Ali Hospital</p>
+					<p class="content">
+                        <b>Address:</b> Playground, 111/1/A Distillery Road, Gendaria Beside Dhupkhola, Dhaka 1204<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 09666-710602</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">City Hospital & Diagnostic Center</p>
+					<p class="content">
+                        <b>Address:</b> House No#1, 8 Satmasjid Road, Dhaka 1207<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-8143312</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Dhanmondi Hospital (PVT) Ltd</p>
+					<p class="content">
+                        <b>Address:</b> 17 Green Rd, Dhaka 1205<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> N/A</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Central Hospital Ltd.</p>
+					<p class="content">
+                        <b>Address:</b> House # 2 Rd No. 5, Dhaka 1205<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9660015</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Ad-Din Women's Medical College Hospital</p>
+					<p class="content">
+                        <b>Address:</b> 2 Bara Maghbazar, Outer Circular Rd, Dhaka 1217<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9353391</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Dhaka Eye Care Hospital</p>
+					<p class="content">
+                        <b>Address:</b> 32 Rabindra Sarani, Dhaka 1230<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01787-681500</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Bangladesh Specialized Hospital</p>
+					<p class="content">
+                        <b>Address:</b> 21 Mirpur Rd, Dhaka 1207<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 09666-700100</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Islami Bank Hospital</p>
+					<p class="content">
+                        <b>Address:</b> 24/B, Outer Circular Rd, Dhaka 1217<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9336423</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">LABAID Cardiac Hospital</p>
+					<p class="content">
+                        <b>Address:</b> House-01 & 03, রোড-০৪, Dhanmondi, Sciece-Laboratory, Dhaka 1205<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 09666-710606</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Samorita Hospital Ltd.</p>
+					<p class="content">
+                        <b>Address:</b> ৮৯, ১ Panthapath, Dhaka 1215<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 48117618, 48117619, 48115405, 48116739, 48117614</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Dhaka Community Medical College and Hospital</p>
+					<p class="content">
+                        <b>Address:</b> 90/1 Baro Moghbazar, Wireless Railgate Bara Moghbazar, Dhaka 1217<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9351190</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Al Helal Specialized Hospital, Dhaka</p>
+					<p class="content">
+                        <b>Address:</b> 150 Begum Rokeya Ave, Dhaka<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9006820</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Baridhara General Hospital Ltd.</p>
+					<p class="content">
+                        <b>Address:</b> Ka 51/1 Progoti Sharoni, Nadda, Dhaka, 1212<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01924-403430</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Ispahani Islamia Eye Institute and Hospital</p>
+					<p class="content">
+                        <b>Address:</b> Sher e Bangla Nagar, Farmgate, Dhaka 1215<br>
+                        <b>Hours:</b> 7.30 AM - 5.30 PM <br>
+                        <b>Phone:</b> 09610-998333</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/hospital-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Islami Bank Hospital Mirpur</p>
+					<p class="content">
+                        <b>Address:</b> Plot No 31, Main Road 3, Near Purobi Bus Stop Begum Rokeya sarani, Block-D, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01992-346631</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+        </div>
+        
+	</div>
+</div>
+	
+<script type="text/javascript">
+    var list=document.getElementById("list");
+    var grid=document.getElementById("grid");
+    var li_links = document.querySelectorAll(".links ul li");
+    
+    li_links.forEach(function(link){
+    list.onclick = function(){
+        document.getElementById("allview").className = "view_wrap list-view";
+        li_links.forEach(function(link){
+            link.classList.add("active");
+        })
+        link.classList.remove("active");
+    }
+    grid.onclick = function(){
+        document.getElementById("allview").className = "view_wrap grid-view";
+        li_links.forEach(function(link){
+            link.classList.remove("active");
+        })
+        link.classList.add("active");
+    }
+    })
+    </script>
+
+</body>
+</html>

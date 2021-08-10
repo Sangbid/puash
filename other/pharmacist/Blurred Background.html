@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Blurred Background.css">
+</head>
+<body>
+    <div class="container" id="blur">
+        <!-- <div class="content"> -->
+            <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, harum.
+            </h2>
+            <img src="daffodil.png">
+            <a href="#" onclick="toggle()">
+                Forget Pass
+            </a>
+        </div>
+    </div>
+
+    <div class="box-login" id="popup" style="outline:#4CAF50 solid 2px;">
+        <form class="form-login" autocomplete="off" method="post">
+            <fieldset>
+                <legend>
+                    Fill up the form
+                </legend>
+                <p>
+                    Please enter your Email.<br />
+                    <span style="color:red;"><?php echo $_SESSION['errmsg']; ?><?php echo $_SESSION['errmsg']="";?></span>
+                </p>
+                <div class="form-group">
+                    <span class="input-icon">
+                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
+                        <i class="fa fa-envelope"></i> </span>
+                </div>
+                        <a href="phlogin.php">
+                            Go to login page
+                        </a>
+
+                    <button type="submit" class="btn btn-primary pull-right" name="submit">
+                        <a href="#" onclick="toggle()">
+                            Get pass
+                        </a>
+                        <a href="#" onclick="toggle()">
+                            close
+                        </a>
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </button>
+                </div>
+
+
+
+
+            </fieldset>
+        </form>
+
+        <div class="copyright">
+            &copy; <span class="current-year"></span><span class="text-bold text-uppercase"> PUASH</span>. <span>All rights reserved</span>
+        </div>
+
+    </div>
+    <!-- <div id="popup">
+        <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptatibus nostrum eos tempora laboriosam.
+        </p>
+        <a href="#" onclick="toggle()">
+            Close
+        </a>
+    </div> -->
+
+    <script type="text/javascript">
+        function toggle(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active')
+
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+
+</body>
+</html>

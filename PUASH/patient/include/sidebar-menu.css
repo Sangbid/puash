@@ -1,0 +1,180 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header {
+    background: #22242A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1089;
+    border: none;
+    margin-bottom: 0;
+    height: 65px;
+} */
+
+.left_area h3{
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.left_area .second{
+    color: #1DC4E7;
+}
+
+.logout_btn{
+    padding: 5px;
+    background: #19B3D3;
+    text-decoration: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.logout_btn:hover{
+    background: #0D9DBB;
+    transition: 0.6s;
+    color: black;
+}
+
+ .sidebar{
+    background: #2F323A ! important;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+}
+
+.sidebar{
+  transition: 0.5s;
+}
+.main-content{
+    transition: 0.5s;
+}
+ .sidebar a{
+   background: #2F323A;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+    line-height: 40px;
+
+    /* padding-left: 40px; */
+}
+
+
+.sidebar .side-content:hover, .side-content:focus, .side-content:active{
+    background: #19B3D3;
+}
+
+
+label #sidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 16%;
+    font-size: 30px;
+    margin: 5px 0;
+    transition: 0.6s ease-in-out;
+    transition-property: color;
+}
+
+label #sidebar_btn:hover{
+    color: #19B3D3;
+}
+
+.right_area .mee{
+  padding: 5px;
+  background: #19B3D3;
+  text-decoration: none;
+  float: right;
+  margin-top: -40px;
+  margin-right: 120px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.mee:hover{
+  /* background: #13d8ff; */
+  background: #7C4DFF;
+  transition: 0.6s;
+  color: black;
+}
+/* ----------------- */
+
+
+#check{
+  display: none;
+}
+/* ---------- */
+@media(max-width:991px){
+  #sidebar_btn{
+    margin-left: 5%;
+  }
+  .sidebar{
+    margin-top: 6%;
+  }
+}
+
+@media(max-width:850px){
+ label #sidebar_btn{
+   margin-left: 6%;
+ }
+}
+ @media(max-width:550px){
+  label #sidebar_btn{
+    margin-left: 8%;
+  }
+ }
+  @media(max-width:400px){
+    .right_area .mee{
+      margin-top: -35px;
+      margin-right: 75px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .logout_btn{
+        margin-top: -35px;
+        margin-right: 8px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+  label #sidebar_btn{
+    margin-left: 50px;
+  }
+}
+
+@media(max-width:300px){
+  .right_area .mee{
+    font-size: 11px;
+  }
+  .logout_btn{
+      font-size: 11px;
+  }
+}
+
+
+
+
+/*  */

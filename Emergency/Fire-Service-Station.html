@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>List and Gird view using Javascript</title>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="s-heading">
+		<a class="ss-btn" href="../index.html">PUASH</a>
+		<p>Proper Use Of Antibiotics & Safe Health</p>
+		<h3>Fire Service Station List In Dhaka</h3>
+	</div>
+	<br>
+	<div class="links">
+		<ul>
+			<li data-view="list-view" class="li-list active" id="list">
+			<i class="fas fa-th-list"></i>
+			List View</li>
+			<li data-view="grid-view" class="li-grid" id="grid">
+			<i class="fas fa-th-large"></i>
+			Grid View</li>
+		</ul>
+	</div>
+	<div class="view_main">
+		<div class="view_wrap list-view" style="display: block;" id="allview">
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Postogola Fire Service Station</p>
+					<p class="content">
+                        <b>Address:</b> M C Rd, Dhaka<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-7410771</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Sutrapur Fire Station</p>
+					<p class="content">
+                        <b>Address:</b> R M Dash Rd, Dhaka<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-7119759</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Bangladesh Fire Service and Civil Defense Head Quarter</p>
+					<p class="content">
+                        <b>Address:</b> 36, 48 Kazi Allaudin Rd, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9555555</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Sadarghat Fire Service and Civil Defense Station</p>
+					<p class="content">
+                        <b>Address:</b> Simson Rd, Dhaka 1100<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-7119759</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Bangladesh Fire Service and Civil Defense</p>
+					<p class="content">
+                        <b>Address:</b> Dhakeshwari Rd, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-8628688</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Bangladesh Fire Service and Civil Defense</p>
+					<p class="content">
+                        <b>Address:</b> Mirpur Rd, Dhaka 1205<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01730-002227</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Service and Civil Defense, Tejgaon Fire Station</p>
+					<p class="content">
+                        <b>Address:</b> Shaheed Tajuddin Ahmed Ave, Dhaka 1208<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01730-002226</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Kurmitola Fire Station</p>
+					<p class="content">
+                        <b>Address:</b> Kurmitola, Dhaka 1206<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01730-002226</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Khilgaon Fire Station</p>
+					<p class="content">
+                        <b>Address:</b> Shantipur Road 02, Dhaka 1219<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-7218329</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Service & Civil Defence Station, Baridhara</p>
+					<p class="content">
+                        <b>Address:</b> Baridhara Plot 1 Madani Ave, Dhaka 1212<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-7218329</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Lalbagh Fire Station</p>
+					<p class="content">
+                        <b>Address:</b> Opp to Dhakeshwari mandir, 22/1 Nur Fattah Lane, Dhaka 1000<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-58617171</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Demra Fire Station</p>
+					<p class="content">
+                        <b>Address:</b> Demra-Narayanganj Rd, Sarulia, Near Rani Mahal Cinema Hall, Dhaka 1361<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01730-002302</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Service & Civil Defence Station, Adamjee EPZ, Narayanganj</p>
+					<p class="content">
+                        <b>Address:</b> Shiddhirganj, Narayanganj<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01758-045151</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Service & Civil Defence</p>
+					<p class="content">
+                        <b>Address:</b> Sonargaon Janapath, Dhaka 1230<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01839-421521</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Service & Civil Defence Station</p>
+					<p class="content">
+                        <b>Address:</b> Mazar Rd, Dhaka 1216<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9555555 ext. 9551300</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Tongi Fire Service Civil Defence Station
+					</p>
+					<p class="content">
+                        <b>Address:</b> Dhaka - Mymensingh Hwy, Tongi<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9816666</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Defence & Civil Defence Station
+					</p>
+					<p class="content">
+                        <b>Address:</b> Hazaribagh Rd, Dhaka<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-58616222</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Purbachal Fire Service & Civil Defense Station
+					</p>
+					<p class="content">
+                        <b>Address:</b> Purbachal<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-9555555 ext. 9551300</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Fire Service & Civil Defence Station - Savar
+					</p>
+					<p class="content">
+                        <b>Address:</b> Dhaka - Aricha Hwy, Savar Union 1340<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 01730-002250</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="images/fire-station-svgrepo-com.svg">
+				</div>
+				<div class="vi_right">
+					<p class="title">Airport Fire Station
+					</p>
+					<p class="content">
+                        <b>Address:</b> Hazrat Shahjalal International Airport, Dhaka-1229<br>
+                        <b>Hours:</b> Open 24 hours <br>
+                        <b>Phone:</b> 02-8901077</p>
+					<!-- <div class="btn"><a class="site" href="">View Their Website</a></div>  -->
+				</div>
+			</div>
+			
+            
+        </div>
+        
+	</div>
+</div>
+	
+<script type="text/javascript">
+    var list=document.getElementById("list");
+    var grid=document.getElementById("grid");
+    var li_links = document.querySelectorAll(".links ul li");
+    
+    li_links.forEach(function(link){
+    list.onclick = function(){
+        document.getElementById("allview").className = "view_wrap list-view";
+        li_links.forEach(function(link){
+            link.classList.add("active");
+        })
+        link.classList.remove("active");
+    }
+    grid.onclick = function(){
+        document.getElementById("allview").className = "view_wrap grid-view";
+        li_links.forEach(function(link){
+            link.classList.remove("active");
+        })
+        link.classList.add("active");
+    }
+    })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+
+.team-section {
+    margin: 20px 40px;
+    color: darkcyan;
+  }
+      .heading {
+    font-size: 60px;
+    color: darkblue;
+  }
+  
+  .heading span {
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+  }
+  
+  .profile {
+    flex-basis: 260px;
+  }
+  
+  .profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .profile:hover .profile-img {
+    filter: grayscale(0);
+  }
+  
+  .user-name {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  
+  .profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  @media only screen and (max-width: 1150px) {
+    .profiles {
+      flex-direction: column;
+    }
+  
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile p {
+      text-align: center;
+      margin: 20px 60px 80px 60px;
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .heading {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+    }
+  
+    .heading span {
+      font-size: 15px;
+    }
+  
+    .profiles {
+      margin: 20px 0;
+    }
+  
+    .profile p {
+      margin: 20px 10px 80px 10px;
+    }
+  }
+
+
+/* Footer Section CSS Start */
+footer{
+  /* background: #212121; */
+  padding: 50px 20px;
+}
+footer .container{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .ftr h3{
+  font-size: 1.4em;
+  margin-bottom: 1.2em;
+  color: #fff;
+}
+footer .content{
+  list-style:none;
+}
+footer .content a{
+  text-decoration: none;
+  color: #fff;
+  opacity: .6;
+  line-height: 30px;
+  transition: .3s ease opacity;
+}
+footer .content a:hover{
+  opacity: 1;
+}
+footer .ftr{
+  flex-basis: 18%;
+}
+form{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 5px 0;
+  background: #f5f5f5;
+}
+.btn input{
+  background: blueviolet;
+  color: #fff;
+  transition: .3s ease background;
+}
+.btn input:hover{
+  background: lightcoral
+}
+@media only screen and (max-width: 540px){
+  footer .ftr{
+      flex-basis: 80%;
+  }
+  form{
+      flex-direction: column;
+  }
+  form input{
+      width: 90%;
+      margin: 5px auto;
+  }
+} 
+/* Footer Section CSS End */
